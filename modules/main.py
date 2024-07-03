@@ -71,27 +71,27 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /upload Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       f"**ℍ𝔼𝕃𝕃𝕆** ❤️\n\n◆〓◆ ❖ 🇵 🇦 🇹 🇭 🇦 🇳  🇸 🇮 🇷  ❖ ™ ◆〓◆\n\n❈  𝕀 𝔸𝕞 𝔸 𝔹𝕆𝕋 𝔽𝕠𝕣 𝔻𝕠𝕨𝕟𝕝𝕠𝕒𝕕 𝕃𝕚𝕟𝕜𝕤 𝔽𝕣𝕠𝕞 𝕐𝕠𝕦𝕣 .𝐓𝐗𝐓 𝔽𝕚𝕝𝕖 𝔸𝕟𝕕 𝕋𝕙𝕖𝕟 𝕌𝕡𝕝𝕠𝕒𝕕 𝕋𝕙𝕒𝕥 𝔽𝕚𝕝𝕖 𝕆𝕟 𝕋𝕖𝕝𝕖𝕘𝕣𝕒𝕞. 𝕊𝕠 𝔹𝕒𝕤𝕚𝕔𝕒𝕝𝕝𝕪 𝕀𝕗 𝕐𝕠𝕦 𝕎𝕒𝕟𝕥 𝕋𝕠 𝕌𝕤𝕖 𝕄𝕖 𝔽𝕚𝕣𝕤𝕥 𝕊𝕖𝕟𝕕 𝕄𝕖  ➪ /pathan ℂ𝕠𝕞𝕞𝕒𝕟𝕕 𝔸𝕟𝕕 𝕋𝕙𝕖𝕟 𝔽𝕠𝕝𝕝𝕠𝕨 𝔽𝕖𝕨 𝕊𝕥𝕖𝕡𝕤...", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Opleech_WD") ],
+                    InlineKeyboardButton("✜ 🇵 🇦 🇹 🇭 🇦 🇳 ✜" ,url=f"https://t.me/ALTAFPATHAN") ],
                     [
-                    InlineKeyboardButton("✜ 𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵𝗚𝗼𝘀𝘄𝗮𝗺𝗶𝟮𝟰 ✜" ,url="https://t.me/AshutoshGoswami24") ],
+                    InlineKeyboardButton("✜ **ℙ𝔸𝕋ℍ𝔸ℕ** ✜" ,url="https://t.me/ALTAFPATHAN") ],
                     [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/Opleech_WD/13") ]                               
+                    InlineKeyboardButton("🦋 🇵 🇦 🇹 🇭 🇦 🇳  🦋" ,url="https://t.me/ALTAFPATHAN") ]                               
             ]))
 
 
 @bot.on_message(filters.command("stop"))
 async def restart_handler(_, m):
-    await m.reply_text("♦ 𝐒𝐭𝐨𝐩𝐩𝐞𝐭 ♦", True)
+    await m.reply_text("♦ 🇸 🇹 🇴 🇵  ♦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
-@bot.on_message(filters.command(["upload"]))
+@bot.on_message(filters.command(["pathan"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 ⏍')
+    editable = await m.reply_text('** 𝕊𝔼ℕ𝔻 𝕐𝕆𝕌ℝ 🇹 🇪 🇽 🇹  𝔽𝕀𝕃𝔼 ** ⏍')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -108,23 +108,23 @@ async def account_login(bot: Client, m: Message):
        os.remove(x)
             # print(len(links)
     except:
-           await m.reply_text("∝ 𝐈𝐧𝐯𝐚𝐥𝐢𝐝 𝐟𝐢𝐥𝐞 𝐢𝐧𝐩𝐮𝐭.")
+           await m.reply_text("**𝕀ℕ 𝕍𝔸𝕃𝕀𝔻 𝕋𝕏𝕋 𝔽𝕀𝕃𝔼.** ☹️")
            os.remove(x)
            return
     
    
-    await editable.edit(f"∝ 𝐓𝐨𝐭𝐚𝐥 𝐋𝐢𝐧𝐤 𝐅𝐨𝐮𝐧𝐝 𝐀𝐫𝐞 🔗** **{len(links)}**\n\n𝐒𝐞𝐧𝐝 𝐅𝐫𝐨𝐦 𝐖𝐡𝐞𝐫𝐞 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐈𝐧𝐢𝐭𝐚𝐥 𝐢𝐬 **1**")
+    await editable.edit(f" ** 𝕋𝕆𝕋𝔸𝕃 𝕃𝕀ℕ𝕂𝕊 𝔽𝕆𝕌ℕ𝔻 𝔸ℝ𝔼 🔗** **{len(links)}**\n\n**𝕎ℍ𝔼ℝ𝔼 𝕐𝕆𝕌 𝕎𝔸ℕ𝕋 𝕋𝕆  𝕊𝕋𝔸ℝ𝕋 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻𝕀ℕ𝔾** **1**")
     input0: Message = await bot.listen(editable.chat.id)
     raw_text = input0.text
     await input0.delete(True)
 
-    await editable.edit("∝ 𝐍𝐨𝐰 𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞")
+    await editable.edit("**ℕ𝕆𝕎 ℙ𝕃𝔼𝔸𝕊𝔼 𝕊𝔼ℕ𝔻 𝕄𝔼 𝕐𝕆𝕌ℝ 🇧 🇦 🇹 🇨 🇭  ℕ𝔸𝕄𝔼 ** ")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
     
 
-    await editable.edit("∝ 𝐄𝐧𝐭𝐞𝐫 𝐄𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 🎬\n☞ 144,240,360,480,720,1080\nPlease Choose Quality")
+    await editable.edit(" **𝔼ℕ𝕋𝔼ℝ 𝕋ℍ𝔼 🇷 🇪 🇸 🇴 🇱 🇺 🇹 🇮 🇴 🇳 𝔽𝕆ℝ 𝕐𝕆𝕌ℝ 𝕍𝕀𝔻𝔼𝕆 ℚ𝕌𝔸𝕃𝕀𝕋𝕐**  🎬\n☞ **144,240,360,480,720,1080**\n**ℙ𝕃𝔼𝔸𝕊𝔼 ℂℍ𝕆𝕆𝕊𝔼 ℚ𝕌𝔸𝕃𝕀𝕋𝕐** ")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -148,7 +148,7 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("✏️ Now Enter A Caption to add caption on your uploaded file")
+    await editable.edit("✏️ ℕ𝕆𝕎 𝔼ℕ𝕋𝔼ℝ 𝔸 🇨 🇦 🇵 🇹 🇮 🇴 🇳 𝕋𝕆 𝔽𝕆ℝ 𝔸𝔻𝔻 ℂ𝔸ℙ𝕋𝕀𝕆ℕ 𝕆ℕ 𝕐𝕆𝕌ℝ 𝕌ℙ𝕃𝕆𝔸𝔻𝔼𝔻 𝔽𝕀𝕃𝔼.** ")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -158,7 +158,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("🌄 Now send the Thumb url\nEg » https://graph.org/file/419c60736fbac058c9e50.jpg\n\n Or if don't want thumbnail send = no")
+    await editable.edit("🌄 **ℕ𝕆𝕎 𝕊𝔼ℕ𝔻 𝔸 🇹 🇭 🇺 🇲 🇧  𝕌ℝ𝕃 **\n**𝔽𝕆ℝ 𝔼𝕏𝔸𝕄ℙ𝕃𝔼** » https://graph.org/file/a1ab55d1432fcab0cfc0e.jpg\n\n **𝕆ℝ 𝕀𝔽 𝔻𝕆ℕ'𝕋 𝕎𝔸ℕ𝕋 𝕋ℍ𝕌𝕄𝔹ℕ𝔸𝕀𝕃 𝕊𝔼ℕ𝔻 🇳 🇴  ** = 𝐍𝐨")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -210,8 +210,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[ 🎥 ] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**'
-                cc1 = f'**[ 📁 ] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**'
+                cc = f'**[ 🎥 ] 𝐕𝐢𝐝 𝐈𝐃:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**'
+                cc1 = f'**[ 📁 ] 𝐏𝐃𝐅 𝐈𝐃:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -237,7 +237,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📝 𝐍𝐚𝐦𝐞 » `{name}\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
+                    Show = f"❊⟱ 🇩 🇴 🇼 🇳 🇱 🇴 🇦 🇩 🇮 🇳 🇬  ⟱❊ »\n\n📝 🇳 🇦 🇲 🇪  » `{name}\n⌨ 🇶 🇺 🇦 🇱 🇮 🇹 🇾  » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -248,13 +248,13 @@ async def account_login(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"⌘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐮𝐩𝐭𝐞𝐝\n{str(e)}\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`"
+                    f"👺 🇩 🇴 🇼 🇳 🇱 🇴 🇦 🇩 🇮 🇳 🇬  🇫 🇦 🇮 🇱 👺\n{str(e)}\n⌘ 𝐍𝐚𝐦𝐞 » {name}\n⌘ 𝐋𝐢𝐧𝐤 » `{url}`"
                 )
                 continue
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞")
+    await m.reply_text("✅ 🇩 🇴 🇳 🇪  🇵 🇦 🇹 🇭 🇦 🇳  🇸 🇮 🇷 ")
 
 print("""
 █░█░█ █▀█ █▀█ █▀▄ █▀▀ █▀█ ▄▀█ █▀▀ ▀█▀     ▄▀█ █▀ █░█ █░█ ▀█▀ █▀█ █▀ █░█   ░ █▀▀
