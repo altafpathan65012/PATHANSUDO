@@ -23,7 +23,7 @@
 
 ## Deploy To Koyeb
               
-<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/SudoR2spr/text-leech-bot&branch=heroku&name=textleechbot" >
+<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/SudoR2spr/text-leech-bothttps://app.koyeb.com/deploy?type=git&repository=github.com/SudoR2spr/text-leech-bot&branch=heroku&name=textleechbot&branch=heroku&name=textleechbot" >
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy"></a>
 
 ## Deploy To Render                  
@@ -58,6 +58,6 @@ uplod - 🎬 Txt file upload
 </p>
  
 -----
-Credits: [𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭](https://t.me/Farooq_is_KING) [𝗔𝘀𝗵𝘂𝘁𝗼𝘀𝗵𝗚𝗼𝘀𝘄𝗮𝗺𝗶𝟮𝟰](https://github.com/AshutoshGoswami24)
+Credits: [**ℙ𝔸𝕋ℍ𝔸ℕ**](https://t.me/ALTAFPATHAN)
 
 Last Edited on: 07/01/2024
