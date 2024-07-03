@@ -97,7 +97,7 @@ async def account_login(bot: Client, m: Message):
     await input.delete(True)
 
     path = f"./downloads/{m.chat.id}"
-
+    
     try:
        with open(x, "r") as f:
            content = f.read()
@@ -175,7 +175,6 @@ async def account_login(bot: Client, m: Message):
         count = 1
     else:
         count = int(raw_text)
-
         try:
         for i in range(count - 1, len(links)):
 
