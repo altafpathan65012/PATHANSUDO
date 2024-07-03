@@ -176,7 +176,7 @@ async def account_login(bot: Client, m: Message):
     else:
         count = int(raw_text)
 
-    try:
+        try:
         for i in range(count - 1, len(links)):
 
             V = links[i][1].replace("file/d/","uc?export=download&id=").replace("www.youtube-nocookie.com/embed", "youtu.be").replace("?modestbranding=1", "").replace("/view?usp=sharing","") # .replace("mpd","m3u8")
@@ -209,23 +209,6 @@ async def account_login(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                
-                cc = f'**[ 🎥 ] 𝐕𝐢𝐝 𝐈𝐃:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}.mkv\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**'
-                cc1 = f'**[ 📁 ] 𝐏𝐃𝐅 𝐈𝐃:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}**'
-                if "drive" in url:
-                    try:
-                        ka = await helper.download(url, name)
-                        copy = await bot.send_document(chat_id=m.chat.id,document=ka, caption=cc1)
-                        count+=1
-                        os.remove(ka)
-                        time.sleep(1)
-                    except FloodWait as e:
-                        await m.reply_text(str(e))
-                        time.sleep(e.x)
-                        continue
-                
-                elif ".pdf" in url:
-                    try:
                         cmd = f'yt-dlp -o "{name}.pdf" "{url}"'
                         download_cmd = f"{cmd} -R 25 --fragment-retries 25"
                         os.system(download_cmd)
